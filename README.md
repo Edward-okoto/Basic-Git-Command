@@ -251,29 +251,31 @@ JERRYS WORK
 
       git add index.html
 
-   This tells Git that TOM wants to include the updates made to `index.html`
+ ![](./g25.png)
+   This tells Git that JERRY wants to include the updates made to `index.html`
    in the next commit.
 
  8 Confirm changes have been staged for commit.
 
       git status
- ![](./img/g17.png)
+ ![](./g26.png)
    
 9 Commit changes.
 
-      git commit -m "Update navigation bar"
+      git commit -m "add-contact-info"
 This takes the staged changes and record them in the repostory history
 with a message describing what was done.
 
-![](./img/g18.png)
+![](./g27.png)
 
-10 Push TOMS work to GITHUB
+10 Push JERRYS work to GITHUB
 
       git push origin update-navigation
-![](./img/g19.png)
+![](./g28.png)
 
-This sends TOMS commits from your local branch on TOMS laptop
-to GITHUB
+This commands uploads JERRYS branch to the GITHUB repository,making it available for review and merging into the main project.
+
+We have esperienced collaboration between TOM and JERRY.HOWEVER, someone needs to review their work,merge their changes to the main project and resolve conflict if any.g
 
 
 
