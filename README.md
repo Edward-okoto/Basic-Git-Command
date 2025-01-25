@@ -182,3 +182,14 @@ from the main also exist in TOMS new workspace.
       git status
  ![](./img/g17.png)
    
+9 Commit changes.
+
+      git commit -m "Update navigation bar"
+This takes the staged changes and record them in the repostory history
+with a message describing what was done.
+
+![](./img/g18.png)
+
+10 Push TOMS work to GITHUB
+
+      git push origin update-navigation
