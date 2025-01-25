@@ -216,6 +216,71 @@ JERRYS WORK
    This command switchs from the current working directory to the main branch ensuring
    that JERRYS version starts from the latest changes.
 
+2 Pull the latest changes
+
+    git pull origin update-navigation
+   
+ ![](./g21.png)
+
+ This ensures that the lastest changes including TOMS work is available to JERRY.
+
+3 Creates a new branch for JERRYS work
+
+      git checkout -b add-contact-info
+   ![](./g22.png)
+
+   This creates a new branch where JERRY will make changes,Keeping them separate from the `main` project until they are ready to be merged.
+
+4 JERRY Adds content to the index.html file
+
+      This is JERRY adding Contact Information to the ai-website.
+   
+   ![](./g23.png)
+
+5 Check the status
+
+      git status
+
+ ![](./g24.png)
+
+ At this stage JERRY has modified the file,but these changes haven't
+ been prepared for a commit in git.This is indicated by the file appearing in red indicating 
+ the changes are recognized by git but not yet staged.
+
+ 7 Stage JERRYS changes
+
+      git add index.html
+
+ ![](./g25.png)
+   This tells Git that JERRY wants to include the updates made to `index.html`
+   in the next commit.
+
+ 8 Confirm changes have been staged for commit.
+
+      git status
+ ![](./g26.png)
+   
+9 Commit changes.
+
+      git commit -m "add-contact-info"
+This takes the staged changes and record them in the repostory history
+with a message describing what was done.
+
+![](./g27.png)
+
+10 Push JERRYS work to GITHUB
+
+      git push origin update-navigation
+![](./g28.png)
+
+This commands uploads JERRYS branch to the GITHUB repository,making it available for review and merging into the main project.
+
+We have esperienced collaboration between TOM and JERRY.HOWEVER, someone needs to review their work,merge their changes to the main project and resolve conflict if any.g
+
+
+
+
+
    
 
 
