@@ -193,3 +193,30 @@ with a message describing what was done.
 10 Push TOMS work to GITHUB
 
       git push origin update-navigation
+![](./img/g19.png)
+
+This sends TOMS commits from your local branch on TOMS laptop
+to GITHUB
+
+TOMS workflow is completed.
+
+JERRYS WORK
+
+-Switch back to the main branch
+
+-Create a new branch for JERRY
+
+-Make changes and then
+
+-Stage,commit and push JERRYS work to GITHUB.
+
+1 Switch back to the main branch
+
+      git checkout main
+   This command switchs from the current working directory to the main branch ensuring
+   that JERRYS version starts from the latest changes.
+
+   
+
+
+
